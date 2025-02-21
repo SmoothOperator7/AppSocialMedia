@@ -1,0 +1,46 @@
+.feed-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.feed-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.post {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+.post h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+.post p {
+    font-size: 1.1em;
+    color: #444;
+    line-height: 1.5;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.no-posts {
+    text-align: center;
+    font-size: 1.3em;
+    color: #888;
+    margin-top: 30px;
+}

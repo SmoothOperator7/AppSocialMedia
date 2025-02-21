@@ -1,0 +1,78 @@
+.post-container {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .post-container:hover {
+    transform: scale(1.10);
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .post-username
+  {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #000000;
+  }
+  .post-content {
+    font-size: 2em;
+    color: #000000;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .post-footer button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .post-footer button:hover {
+    text-decoration: underline;
+  }
+  .delete-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.like-button {
+    font-size: 25px;
+}
+
+.like-button.liked {
+    color: blue;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+  
